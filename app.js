@@ -7,7 +7,7 @@ function buscarFilosofos() {
     // se campoPesquisa for uma string sem nada
     if (campoPesquisa == "") {
         section.innerHTML = "<p> Nada foi encontrado </p>";
-        return;
+return;
     }
 
 campoPesquisa = campoPesquisa.toLowerCase();
