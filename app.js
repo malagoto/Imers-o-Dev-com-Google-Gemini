@@ -39,7 +39,8 @@ campoPesquisa = campoPesquisa.toLowerCase();
     }
 
     if(!resultados) {
-        resultados = "<p> Nada foi encontrado no nosso banco de dados </p>"; 
+        resultados = `<aside style="background-color:#e0d2ca; padding: 0,1rem; border-radius: 0.7rem; margin-bottom: 1rem; text-align: center;"><p> Nada foi encontrado no nosso banco de dados </p></aside>`; 
+        // uma tag <aside> para envolver a mensagem e aplicar estilos a ela. 
 
     }
 
